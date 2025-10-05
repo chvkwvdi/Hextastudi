@@ -1,0 +1,257 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin: fit-content;
+  display: flex;
+  gap: 8%;
+}
+.wrapper {
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-image: url("assets/images/chart.png");
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  border-radius: 40px;
+  margin: 50px 0px;
+}
+.header h1 {
+  color: #ffff;
+  font-size: 4.5rem;
+  font-weight: 400;
+  width: 700px;
+  line-height: 1.3;
+  padding: 0 50px;
+}
+.logs-header h1 {
+  color: #000000;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+.logs-header p {
+  color: #888585;
+  font-size: 1.2rem;
+  font-weight: 200;
+  width: 700px;
+  line-height: 1.3;
+}
+.logs hr {
+  margin: 30px 0px;
+  width: 80%;
+}
+label {
+  font-size: 1.5rem;
+  padding: 60px 0px;
+  color: #888585;
+}
+input {
+  margin: 10px 0px;
+}
+#input {
+  padding: 20px 0px;
+  width: 80%;
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+}
+#input:hover {
+  border: 1px solid red;
+}
+
+button {
+  width: 80%;
+  padding: 20px;
+  background-color: #fa6705;
+  border-radius: 15px;
+  color: #ffff;
+  font-size: 18px;
+  margin-top: 30px;
+  border: none;
+}
+button:hover {
+  border: 1px solid #fa6705;
+  background-color: #f7d4be;
+  color: #000000;
+}
+.submit p {
+  text-align: center;
+  width: 80%;
+  font-size: 18px;
+}
+.submit p a {
+  color: #000000;
+  font-size: 20px;
+}
+@media (min-width: 50px) and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin: fit-content;
+    display: flex;
+    gap: 8%;
+  }
+  .form {
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+  }
+  .logs-header h1 {
+    color: #000000;
+    font-size: 7rem;
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 900;
+  }
+  .icon {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30%;
+    display: none;
+  }
+  .logs-header p {
+    color: #888585;
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 18%;
+    line-height: 1.3;
+  }
+  .logs hr {
+    margin: 30px 0px;
+    width: 32rem;
+    margin-left: 32%;
+  }
+  label {
+    font-size: 2rem;
+    padding: 60px 0px;
+    text-align: left;
+    color: #888585;
+  }
+  input {
+    margin: 15px 0px;
+  }
+  #input {
+    padding: 20px 0px;
+    width: 38rem;
+    border-radius: 20px;
+    outline: none;
+    font-size: 40px;
+  }
+  #input:hover {
+    border: 1px solid red;
+  }
+
+  button {
+    padding: 30px;
+    background-color: #fa6705;
+    border-radius: 20px;
+    width: 38rem;
+    color: #ffff;
+    font-size: 25px;
+    margin-top: 40px;
+    border: none;
+  }
+  button:hover {
+    border: 1px solid #fa6705;
+    background-color: #f7d4be;
+    color: #000000;
+  }
+  .submit p {
+    text-align: center;
+    margin-left: 15%;
+    font-size: 25px;
+  }
+  .submit p a {
+    text-align: center;
+
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    display: none;
+  }
+  .logs {
+    justify-content: center;
+    align-items: center;
+  }
+  .logs-header h1 {
+    color: #000000;
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 900;
+  }
+  .icon {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .logs-header p {
+    color: #888585;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    width: 700px;
+    line-height: 1.3;
+  }
+  .logs hr {
+    margin: 30px 0px;
+    width: 100%;
+  }
+  label {
+    font-size: 1.5rem;
+    padding: 60px 0px;
+    text-align: left;
+    color: #888585;
+  }
+  input {
+    margin: 15px 0px;
+  }
+  #input {
+    padding: 30px 0px;
+
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+  }
+  #input:hover {
+    border: 1px solid red;
+  }
+
+  button {
+    width: 100%;
+    padding: 30px;
+    background-color: #fa6705;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 18px;
+    margin-top: 40px;
+    border: none;
+  }
+  button:hover {
+    border: 1px solid #fa6705;
+    background-color: #f7d4be;
+    color: #000000;
+  }
+  .submit p {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+}
