@@ -304,7 +304,7 @@ body {
   color: #000;
   z-index: 9999;
   transition: all 0.4s ease-in-out;
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 0 10px 10px 0;
 }
 
@@ -335,6 +335,7 @@ body {
 }
 #exit-button {
   text-align: right;
+  bottom: 30px;
 }
 .list2 {
   padding: 10px 20px;
